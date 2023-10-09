@@ -39,7 +39,7 @@ namespace GrowSpace
     void AssignRandValues(int* ptrArray, int arraySize)
     {
         int randNum = 0;
-        // Loop through the array and assign each index a random value from 1 to 999
+        // Loop through the array and assign each index a random value between 0 and 1
         for (int i = 0; i < arraySize; i++)
         {
             randNum = rand() % 2;
