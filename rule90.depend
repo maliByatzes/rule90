@@ -1,0 +1,15 @@
+# depslib dependency file v1.0
+1696849282 source:/home/malib/Documents/Projects/cpp/rule90/librule90.cpp
+	<iostream>
+	<string>
+	<sstream>
+	"librule90.h"
+
+1696849087 source:/home/malib/Documents/Projects/cpp/rule90/main.cpp
+	<iostream>
+	<cstdlib>
+	"librule90.h"
+
+1696846247 /home/malib/Documents/Projects/cpp/rule90/librule90.h
+	<string>
+
