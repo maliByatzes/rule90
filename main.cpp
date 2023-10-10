@@ -57,15 +57,9 @@ int main(int argc, char* argv[])
             AssignManualValues(ptrArray, arraySize);
             break;
         case 4:
-            if (numRounds == 0)
-            {
-                cerr << "The number of rounds is zero, try initializing it.";
-                break;
-            }
             RunAutomaton(ptrArray, arraySize, numRounds);
             break;
         case 5:
-            cout << "Good bye!\n";
             isRunning = false;
             break;
         default:
