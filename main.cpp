@@ -29,7 +29,7 @@ int main(int argc, char* argv[])
     if (argc != 2) {
         cerr << "Invalid input!\n";
         cout << "Please run " << argv[0] << " <arraySize>\n";
-        exit(-2);
+        exit(EXIT_ARGC);
     }
 
     int arraySize = GetInt(argv[1]);
